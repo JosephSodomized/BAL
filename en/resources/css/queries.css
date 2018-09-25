@@ -1,0 +1,195 @@
+/* media only */
+
+
+
+@media only screen and (max-width:415px)
+{
+    /* ------ navbar ------- */
+    .navbar{
+        position: absolute;
+        top: 20px;
+    }
+
+    .navbar li{
+        display: inline;
+        padding: 10px;
+    }
+    
+    .navbar li a{
+        display: inline-block;
+        font-size: 17px;
+        color: white;
+    }
+
+/* ------ ikona balu ------- */
+    .icon{
+        display: block;
+        margin: auto;
+        width: 100%;
+        padding-top: 180px;
+        
+    }
+
+    #napis{
+        display: none;
+     }
+
+     /* ------ FB znaczek ------- */
+    .fb{
+        display: none;
+    }
+
+    .fb:hover{
+        transform: scale(1.1);
+    }
+
+    .food p{
+        padding-top: 100px;
+    }
+    
+    .drink p{
+        padding-top: 100px;
+    }
+
+    /* box z have a bite */
+    .second-page{
+         width: 100%;
+    }
+    
+    .food p{
+        position: unset;
+        margin: 40px;
+    }
+
+    .drink p{
+        position: unset;
+        margin: 40px;
+      }
+
+    
+    .cinema{
+        background-image: none;
+        width: 100%;
+        height: 540px;
+    }
+
+    .cinema h2{
+        padding: 10px;
+    }
+
+    .repertuar{
+        float: right;
+        margin-top: 15%;
+        font-size: 15px;
+        text-align: left;
+    }
+    
+    .repertuar h1{
+        padding: 10px;
+    }
+    
+    .repertuar ul{
+        list-style:none;
+        margin-left: 10px;
+    }
+    
+    .repertuar ul li{
+        padding: 5px;
+    }
+
+    .text-find{
+        
+        height: 150px;
+        width: 100%;
+    }
+
+    .find-us{
+        text-align: center;
+        width: 100%;
+        margin-top: -100px;
+    }
+
+    .find-us h1{
+        float: none;
+        font-size: 20px;
+    }
+    
+    .find-us p{
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .mapa{
+        margin-top: 100px;
+        float: none;
+        width: 300px;
+        }
+
+    .goodbay{
+       background-position-x: center;
+       height: 40vh;
+    }
+
+    .goodbay p{
+        color: white;
+        position: relative;
+        font-size: 50px;
+        padding: 10px;
+    }
+  
+}
+
+
+@media only screen and (max-width:376px)
+{
+    .cinema{
+        height: 600px;
+    }
+}
+
+@media only screen and (max-width:321px)
+{
+    .repertuar h1{
+        margin-left: 2px;
+        margin-top: -30px;
+        
+    }
+    .have-bite img{
+        width: 60px;
+        margin-left: 5%;
+    }
+
+    .have-bite p{
+        padding: 20px;
+        float: right;
+        text-align: right;
+        font-size: 13px;
+    }
+
+    .food p{
+        position: unset;
+        margin: 30px;
+        margin-top: -60px;
+    }
+
+    .drink p{
+        position: unset;
+        margin: 30px;
+        margin-top: -60px;
+      }
+        
+    .line{
+        border-left: 1px solid black;
+        height: 200px;
+        position: absolute;
+        left: 50%;
+        top: 123%;
+        transform: translate(-123, -50%);
+        
+    }
+
+    #menu{
+        height: 400px;
+    }
+
+}

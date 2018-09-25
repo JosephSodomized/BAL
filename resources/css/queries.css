@@ -1,0 +1,232 @@
+/* media only */
+@media only screen and (max-width:415px)
+{
+/* ------ ikona balu ------- */
+    .icon{
+        display: block;
+        margin: auto;
+        width: 100%;
+        padding-top: 70px;   
+    }
+     /* ------ FB znaczek ------- */
+    .fb{
+        display: none;
+    }
+
+    .fb:hover{
+        transform: scale(1.1);
+    }
+
+
+    /* box z have a bite */
+    #menu{
+        min-height: 75vh;
+    }
+    .second-page{
+         width: 100%;
+    }
+
+    .window{
+        margin-top: 0;
+        width: 300px;
+    }
+
+    .inside-txt{
+        margin-top: 60px;
+    }
+    .inside-txt h1{
+        font-size: 30px;
+    }
+    
+    .boxy{
+        display: none;
+    }
+          /* ----------- ABOUT US ------------- */
+    .about-us{
+        min-height: 90vh;
+        background-image: url("/resources/img/drink.jpg");
+        background-position-y: 1800px;
+        background-attachment: fixed;
+        color: white;
+    }
+
+    .about-us img{
+        width: 200px;
+        }
+
+    .logo{
+        width: 300px;
+        margin: 0;
+    }
+
+    .logo p{
+        font-size: 18px;
+        margin: 10px;
+    }
+
+    .text{
+     background-color: unset;
+     width: 300px;
+     float: none;
+     padding: 0;
+     margin: 10px;
+     
+    }
+    
+    .text p{
+        font-size: 11px;
+        color: white;
+        
+    }
+
+        /* ------KINO ------- */
+    .cinema{
+        background-image: none;
+        width: 100%;
+        min-height: 500px;
+    }
+
+    .cinema p{
+        width: 300px;
+        padding: 10px;
+    }
+
+    .cinema h2{
+        padding: 10px;
+    }
+
+    .repertuar
+    {
+        margin-bottom: 100px;
+    }
+
+    .fb-page{
+        display: none;
+    }
+
+    .party{
+        height: 900px;
+        width: 100%;
+    }
+
+    .party h1{
+        font-size: 30px;
+    }
+
+    .reservation{
+        margin: 2%;
+        width: 250px;
+        font-size: 15px;
+        
+    }
+
+    .reservation ul li{
+        font-size: 15px;
+        padding: 0;
+    }
+
+    .change{
+        min-width: 100%;
+        margin: 0;
+    }
+
+ /* ----------- MAPA ------------- */
+    .text-find{
+        border: none;
+        height: 150px;
+        width: 100%;
+    }
+
+    .text-find p{
+        font-size: 15px;
+        padding: 0;
+    }
+
+    .find-us{
+        text-align: center;
+        width: 100%;
+        border: 0;
+    }
+
+    .find-us h1{
+        float: none;
+        font-size: 20px;
+    }
+    
+
+    .mapa{
+        margin-top: 100px;
+        float: none;
+        width: 250px;
+        }
+
+    .goodbay{
+       background-position-x: center;
+       height: 40vh;
+    }
+
+    .goodbay p{
+        color: white;
+        position: relative;
+        font-size: 50px;
+        padding: 10px;
+    }
+  
+}
+
+@media only screen and (max-width:376px)
+{
+    .cinema{
+        height: 600px;
+    }
+
+    #menu{
+        min-height: 75vh;
+    }
+}
+
+@media only screen and (max-width:321px)
+{
+    #menu{
+        min-height: 75vh;
+    }
+    .repertuar h1{
+        margin-left: 2px;
+        margin-top: -30px;
+        
+    }
+    .have-bite img{
+        width: 60px;
+        margin-left: 5%;
+    }
+
+    .have-bite p{
+        padding: 20px;
+        float: right;
+        text-align: right;
+        font-size: 13px;
+    }
+
+    .food p{
+        position: unset;
+        margin: 30px;
+        margin-top: -60px;
+    }
+
+    .drink p{
+        position: unset;
+        margin: 30px;
+        margin-top: -60px;
+      }
+        
+    .line{
+        border-left: 1px solid black;
+        height: 200px;
+        position: absolute;
+        left: 50%;
+        top: 123%;
+        transform: translate(-123, -50%);        
+    }
+ 
+
+}

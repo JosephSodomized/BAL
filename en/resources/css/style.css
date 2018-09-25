@@ -1,0 +1,266 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+/* ------ Strona główna------- */
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../img/srodek.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    
+}
+/* ------ ikona balu ------- */
+.icon{
+    display: block;
+    margin: -100px auto;
+    width: 200px;
+    
+}
+
+
+
+/* ------ navbar ------- */
+.navbar{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    padding: 20px;
+}
+
+.navbar li{
+    display: inline;
+    padding: 20px;
+}
+
+.navbar li a{
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+}
+
+.navbar li a:link,
+.navbar li a:visited{
+    border-bottom: 1.5px solid transparent;
+    transition: border-bottom 1s;
+}
+.navbar li a:hover{
+    border-bottom: 1.5px solid white;
+}
+
+/* ------ FB znaczek ------- */
+.fb{
+    width: 50px;
+    padding: 25px;
+    transition: transform 0.2s;
+}
+
+.fb:hover{
+    transform: scale(1.1);
+}
+
+/* ------ napis na dole ------- */
+#napis{
+   text-align: center;
+   color: white;
+   margin-top: 40%;
+}
+
+/* ------ SRTRONA 2 ------- */
+
+section{
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.second-page{
+    width: 70%;
+}
+
+.menu{
+
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    margin-top: 30px;
+    
+}
+
+.menu::after{
+    
+    margin: 10px auto;
+    height: 2px;
+    width: 30px;
+    content: "";
+    display: block;
+    background-color: rgb(90, 209, 173);   
+}
+
+
+
+/* ------ boxy ------- */
+
+#menu{
+    height: 600px;
+}
+
+.box{
+    display: block;
+    color: black;
+    margin-top: 90px;
+}
+
+.one{
+    margin-top: 40px;
+    margin-bottom: -40px;
+}
+
+.food{
+    text-align: center;
+    font-size: 30px;
+    float: left;
+}
+
+a{
+ text-decoration: none;
+ color: black;
+}
+
+.food:hover{
+    font-weight: bold;
+}
+
+.food p{
+    left: 300px;
+    position: relative;
+    top: 150px;
+}
+
+
+
+.line{
+    border-left: 1px solid black;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 123%;
+    transform: translate(-123, -50%);
+    
+}
+
+.drink{
+    
+    text-align: center;
+    font-size: 30px;
+    float: right;
+   
+}
+
+.drink p{
+  right: 300px;
+  position: relative;
+  top: 150px;
+}
+
+.drink a{
+    text-decoration: none;
+    color: black;
+   }
+   
+.drink:hover{
+       font-weight: bold;
+   }
+
+/* ================ */
+.text{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 15%;
+    float: left;
+    width: 400px;
+    background-color: rgb(87, 69, 69);   
+    padding: 30px;
+}
+
+.text p{
+    letter-spacing: 2px;
+    font-size: 15px;
+    color: white;
+}
+
+.cinema{
+    height: 100vh;
+    width: 70%;
+    background-image: url("../img/movie.jpg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position-y: 25%;
+}
+
+.repertuar{
+    float: right;
+    margin-top: 15%;
+    font-size: 20px;
+    text-align: left;
+}
+
+.repertuar h1{
+    padding: 10px;
+    
+}
+
+.repertuar ul{
+    list-style: none;;
+}
+
+.repertuar ul li{
+    padding: 10px;
+}
+/* -- find-us mapa */
+
+.find-us{
+    text-align: center;
+    width: 70%;
+}
+
+.text-find{
+    float: right;
+    position: relative;
+    top: 100px;
+}
+.mapa{
+    margin-top: -200px;
+    float:left;
+    padding: 30px;
+}
+
+.find-us h1{
+    float: right;
+    font-size: 50px;
+}
+
+.find-us p{
+    font-size: 30px;
+    padding: 20px;
+}
+
+/* ostatnia strona */
+.goodbay{
+    height: 100vh;
+    background-image: url("../img/food.jpg");
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+}
+
+.goodbay p{
+    text-align: center;
+    margin-top: 20%;
+    font-size: 140px;
+    font-family: 'Amatic SC', cursive;
+    color: white;
+}

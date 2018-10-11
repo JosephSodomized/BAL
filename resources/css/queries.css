@@ -1,4 +1,68 @@
 /* media only */
+
+
+
+@media only screen and (max-width:1445px)
+{
+    .facebook-pg{
+        
+    display: none;
+        
+    }
+
+    .text-left p{
+        padding-top: 0;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:1144px)
+{
+    .facebook-pg{
+        
+        width: 200px !important;
+        
+    }
+    .text-left p{
+        padding-top: 0;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:823px)
+{
+    .text-left{
+        width: 100%;
+        background-color: aqua;
+    }
+
+    
+.text-left p{
+    padding-top: 0;
+    font-size: 20px;
+}
+    
+    .repertuar{
+        float: left;
+        display: block;
+    }
+
+    .facebook-pg{
+     
+        width: 200px !important;
+        
+    }
+}
+
+@media only screen and (max-width:710px)
+{
+ 
+    .facebook-pg{
+        width: 200px !important;
+        
+    }
+}
+
 @media only screen and (max-width:415px)
 {
 /* ------ ikona balu ------- */
@@ -97,11 +161,12 @@
 
     .repertuar
     {
+        width: 100%;
         margin-bottom: 100px;
     }
 
-    .fb-page{
-        display: none;
+    .facebook-pg .fb-page .fb_iframe_widget{
+        width: 100px !important;
     }
 
     .party{

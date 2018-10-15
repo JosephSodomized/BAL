@@ -56,13 +56,13 @@ section{
 }
 
 .text-left h1{
-   margin-top: 80px;
+    padding-top: 80px;
 }
 
 .text-left{
     float: left;
     width: 50%;
-    background-color: aqua;
+   
 }
 
 .text-left p{
@@ -82,7 +82,7 @@ section{
 } */
 .repertuar{
     float: right;
-    background-color: blueviolet;
+  
 }
 
 .repertuar h1{
@@ -141,14 +141,14 @@ section{
 
  /* ------PARTY------- */
  .party{
-     min-height: 100vh;
+     
      width: 70%; 
      background-color: rgb(255, 255, 255);
      
  }
 
  .party h1{
-     padding-top: 80px;
+     
      text-align: center;
  }
 
@@ -156,24 +156,14 @@ section{
      text-align: left;
  }
 
- .reservation{
-     padding: 20px;
-     float: left;
-     font-size: 30px;
-     
+ .text-lef{
+     font-size: 20px;
+     padding: 10px;
  }
-
- .reservation ul{
-     list-style: none;
- }
-
- 
- .reservation li{
-    padding: 3px;
-}
 
 .change{
     width: 60%;
+    margin-top: -80px;
 }
 
  /* -- find-us mapa */

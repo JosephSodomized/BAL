@@ -62,7 +62,7 @@ section{
 .text-left{
     float: left;
     width: 50%;
-    background-color: aqua;
+   
 }
 
 .text-left p{
@@ -82,7 +82,7 @@ section{
 } */
 .repertuar{
     float: right;
-    background-color: blueviolet;
+ 
 }
 
 .repertuar h1{
@@ -99,10 +99,10 @@ section{
 .about-us{
     width: 100%;
     min-height: 50vh;
-    background-image: url("../img/drink.jpg");
+
     background-position-y: 1800px;
     background-attachment: fixed;
-    color: white;
+    color: black;
 }
 
 .about-us img{
@@ -125,7 +125,7 @@ section{
 .text{
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-right: 15%;
+    margin-right: 25%;
     float: right;
     width: 400px;
     background-color:  rgb(32, 32, 32); 
@@ -140,15 +140,15 @@ section{
    
 
  /* ------PARTY------- */
- .party{
-     min-height: 100vh;
-     width: 70%; 
+ .party{  
+     width: 100%;
+     
      background-color: rgb(255, 255, 255);
      
  }
 
  .party h1{
-     padding-top: 80px;
+   
      text-align: center;
  }
 
@@ -156,65 +156,25 @@ section{
      text-align: left;
  }
 
- .reservation{
-     padding: 20px;
-     float: left;
+ .li-elements{
      font-size: 30px;
-     
  }
 
- .reservation ul{
-     list-style: none;
- }
 
- 
- .reservation li{
-    padding: 3px;
+ /* -- kontank */
+.last{
+    width: 70%;
+}
+
+.karta{
+    width: 440px;
 }
 
 .change{
-    width: 60%;
+    width: 700px;
+    margin-bottom: 2%;
+    opacity: 0.9;
+    text-align: center;
+    height: 800px;
+    position: fixed;
 }
-
- /* -- find-us mapa */
-
-
- .find-us{
-    width: 100%;
-    background-color: rgb(32, 32, 32);
-    background-image: url("../img/food.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-position-x: 600px;
-    background-attachment: fixed;
-}
-
-.text-find{
-  float: right;
-  color: white;
-  text-align: center;
-  position: relative;
-  right: 300px;
-  top: 100px;
-}
-
-.text-find h1{
-    font-size: 50px;
-  }
-  
-.text-find p{
-    font-size: 20px;
-  }
-.mapa{
-    margin-top: -241px;
-    float:left;
-}
-
-.footer{
-    height: 30px;
-    background-color: rgb(27, 27, 27);
-    color: rgba(128, 128, 128, 0.616);
-    
-}
-

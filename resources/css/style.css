@@ -166,15 +166,12 @@ section{
     width: 70%;
 }
 
-.karta{
-    width: 440px;
-}
 
 .change{
-    width: 700px;
+    width: 30%;
     margin-bottom: 2%;
     opacity: 0.9;
     text-align: center;
-    height: 800px;
+    height: 80%;
     position: fixed;
 }

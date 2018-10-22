@@ -76,7 +76,7 @@ section{
 /* ------ kino ----------*/
 .cinema{
     background-color: #fff;
-    min-height: 60vh;
+    min-height: 40vh;
 }
 
 
@@ -134,7 +134,7 @@ section{
     content: "";
     position: absolute;
     top: 210px;
-    background: rgb(24, 24, 24);
+    background: rgb(249, 249, 249);
     width: 120%;
     -webkit-transform: rotate(5deg);
     -ms-transform: rotate(5deg) ;
@@ -155,7 +155,6 @@ section{
      width: 100%;
      top: 1800px;
      background-color: rgb(39, 39, 39);
-     -
  }
 
  .party h1{
@@ -192,6 +191,7 @@ section{
     background-position: center;
     background: url("/resources/img/food2.jpg");
     background-size: cover;
+ 
 }
 
 
@@ -209,6 +209,14 @@ section{
 }
 
 .heading{
-    color: red;
+    color: rgb(66, 66, 66);
     font-weight: bold;
+}
+
+.background{
+    background-image: url("/resources/img/movie.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
 }

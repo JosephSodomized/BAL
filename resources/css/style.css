@@ -121,7 +121,7 @@ section{
     content: "";
     position: absolute;
     top: 850px;
-    background: rgb(250, 8, 8);
+    background: rgb(249, 249, 249);
     width: 120%;
     -webkit-transform: rotate(-5deg);
     -ms-transform: rotate(-5deg) ;

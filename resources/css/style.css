@@ -193,7 +193,7 @@ section{
 
 .pic1{
     background-position: center;
-    background: url("/resources/img/food2.jpg");
+    background: url("../img/food2.jpg");
     background-size: cover;
  
 }
@@ -201,14 +201,14 @@ section{
 
 .pic2{
     background-position: center;
-    background: url("/resources/img/food4.jpg");
+    background: url("./img/food4.jpg");
     background-size: cover;
 }
 
 
 .pic3{
     background-position: center;
-    background: url("/resources/img/drink.jpg");
+    background: url("../img/drink.jpg");
     background-size: cover;
 }
 
@@ -218,7 +218,7 @@ section{
 }
 
 .background{
-    background-image: url("/resources/img/movie.jpg");
+    background-image: url("../img/movie.jpg");
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;

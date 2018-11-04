@@ -20,6 +20,7 @@ header{
 
 
 
+
 /* ------ ikona balu ------- */
 .icon{
     display: block;
@@ -149,6 +150,7 @@ section{
 .logo{
     width: 450px;
     margin: 0 auto;
+    display: block;
 }
 
 
@@ -224,6 +226,18 @@ section{
 }
 
 /*------- ikony -------*/
+
+.icons{
+    opacity: 0.5;
+}
+
+
+.icons:hover{
+    opacity: 1;
+    transition:0.5s;
+}
+
+
 .fa-facebook-square{
     color:rgb(175, 175, 175);
 }
@@ -275,7 +289,7 @@ section{
     content: "";
     height: 1px;
     width: 100px;
-    background-color: #ffc107;
+    background-color: #9b9686;
     margin: 0 auto;
     margin-top: 10px;
 }

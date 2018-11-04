@@ -19,23 +19,6 @@ header{
 }
 
 
-.bg-slant-white {
-  position: relative;
-}
-
-.bg-slant-white:after {
-  z-index: 1;
-  background: #fff;
-  content: "";
-  -webkit-transform: rotate(-5deg) translateX(-50%);
-  -ms-transform: rotate(-5deg) translateX(-50%);
-  transform: rotate(-5deg) translateX(-50%);
-  width: 120%;
-  position: absolute;
-  bottom: 0;
-  height: 200px;
-  left: 50%;
-}
 
 /* ------ ikona balu ------- */
 .icon{
@@ -137,7 +120,21 @@ section{
 .bg-slant-black::before{
     content: "";
     position: absolute;
-    top: 210px;
+    top: 850px;
+    background: rgb(249, 249, 249);
+    width: 120%;
+    -webkit-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg) ;
+    transform: rotate(-5deg);
+    z-index: -1;
+    height: 500px;
+    right: -2%;
+}
+
+.bg-slant-black::after{
+    content: "";
+    position: absolute;
+    top: 300px;
     background: rgb(249, 249, 249);
     width: 120%;
     -webkit-transform: rotate(5deg);
@@ -147,6 +144,7 @@ section{
     height: 500px;
     right: -2%;
 }
+
 
 .logo{
     width: 450px;

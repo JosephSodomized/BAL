@@ -83,6 +83,8 @@ section{
 
 .text-left h1{
    margin-top: 50px;
+ font-family: 'Lily Script One', cursive;
+
 }
 
 .text-left{
@@ -106,6 +108,8 @@ section{
 .repertuar h1{
     text-align: left;
     margin-top: 50px;
+  font-family: 'Lily Script One', cursive;
+    
 }
 
 
@@ -219,4 +223,61 @@ section{
     background-size: 100%;
     background-repeat: no-repeat;
     
+}
+
+/*------- ikony -------*/
+.fa-facebook-square{
+    color:rgb(175, 175, 175);
+}
+
+.fa-instagram{
+    color:rgb(175, 175, 175);
+}
+
+.fa-facebook-messenger{
+    color:rgb(175, 175, 175);
+}
+
+.fa-facebook-messenger:hover{
+    color: black;
+    transition: 0.5s;
+}
+
+.fa-facebook-square:hover{
+    color: black;
+    transition: 0.5s;
+}
+
+.fa-instagram:hover{
+    color: black;
+    transition: 0.5s;
+}
+
+.fa-map-marker-alt{
+    display: block;
+    text-align: center;
+}
+
+.fa-credit-card{
+    display: block;
+    text-align: center;
+}
+
+.fa-map-marker-alt:after{
+    display: block;
+    content: "";
+    height: 1px;
+    width: 100px;
+    background-color: #ffc107;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.fa-credit-card:after{
+    display: block;
+    content: "";
+    height: 1px;
+    width: 100px;
+    background-color: #ffc107;
+    margin: 0 auto;
+    margin-top: 10px;
 }

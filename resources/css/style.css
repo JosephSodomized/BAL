@@ -72,9 +72,7 @@ section{
 }
 
 .text-left{
-    float: left;
-  
-   
+    float: left;  
 }
 
 .text-left p{
@@ -97,7 +95,6 @@ section{
 }
 
 
-
 .facebook-pg{
     padding-top: 60px;
     width: 500px !important;
@@ -110,8 +107,9 @@ section{
     color: black;
 }
 
-.about-us img{
-    width: 400px;
+.about-txt{
+    font-size: 20px;
+     font-family: 'Lily Script One', cursive;
 }
 
 .bg-slant-black{
@@ -231,6 +229,9 @@ section{
     opacity: 0.5;
 }
 
+.male{
+    width: 300px;
+}
 
 .icons:hover{
     opacity: 1;
@@ -240,14 +241,17 @@ section{
 
 .fa-facebook-square{
     color:rgb(175, 175, 175);
+    font-size: 50px;
 }
 
 .fa-instagram{
     color:rgb(175, 175, 175);
+    font-size: 50px;
 }
 
 .fa-facebook-messenger{
     color:rgb(175, 175, 175);
+    font-size: 50px;
 }
 
 .fa-facebook-messenger:hover{
@@ -289,7 +293,7 @@ section{
     content: "";
     height: 1px;
     width: 100px;
-    background-color: #9b9686;
+    background-color: #ffc107;
     margin: 0 auto;
     margin-top: 10px;
 }

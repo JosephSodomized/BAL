@@ -56,6 +56,9 @@ section{
     
 }
 
+.hidden{
+    display: block;
+}
 
 /* ------ kino ----------*/
 .cinema{
@@ -110,6 +113,11 @@ section{
 .about-txt{
     font-size: 20px;
      font-family: 'Lily Script One', cursive;
+}
+
+.inside-txt{
+    font-size: 15px;
+    
 }
 
 .bg-slant-black{
@@ -189,23 +197,25 @@ section{
 
 /* background */
 
-.pic1{
+.pic{
     background-position: center;
+    min-height: 300px;
+}
+
+#one{
     background: url("../img/food2.jpg");
     background-size: cover;
- 
 }
 
 
-.pic2{
-    background-position: center;
+#two{
     background: url("../img/food4.jpg");
     background-size: cover;
 }
 
 
-.pic3{
-    background-position: center;
+#three{
+    
     background: url("../img/drink.jpg");
     background-size: cover;
 }
@@ -223,15 +233,19 @@ section{
     
 }
 
+/* ------ map ----------*/
+.map{
+    width: 100%;
+    height: 300px;
+}
+
 /*------- ikony -------*/
 
 .icons{
     opacity: 0.5;
 }
 
-.male{
-    width: 300px;
-}
+
 
 .icons:hover{
     opacity: 1;

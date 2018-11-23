@@ -4,6 +4,9 @@
         width: 300px;
     }
 
+    #slider{
+        height: auto;
+    }
 
     .text-left h1{
         margin-top: 0px;
@@ -40,6 +43,11 @@
  .facebook-pg{
    display: none;
 }
+.cinema{
+    background-color: #fff;
+    min-height: auto;
+}
+
 .xd{
     padding-top: 20px;
 }

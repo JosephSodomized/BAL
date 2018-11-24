@@ -63,13 +63,13 @@ section{
 /* ------ kino ----------*/
 .cinema{
     background-color: #fff;
-    min-height: 40vh;
+    min-height: 700px;
 }
 
 
 
 .text-left h1{
-   margin-top: 50px;
+  
  font-family: 'Lily Script One', cursive;
 
 }
@@ -79,7 +79,7 @@ section{
 }
 
 .text-left p{
-    padding-top: 60px;
+    
     font-size: 20px;
 }
 
@@ -92,14 +92,14 @@ section{
 
 .repertuar h1{
     text-align: left;
-    margin-top: 50px;
+    
   font-family: 'Lily Script One', cursive;
     
 }
 
 
 .facebook-pg{
-    padding-top: 60px;
+    padding-top: 30px;
     width: 500px !important;
     
 }
@@ -187,13 +187,16 @@ section{
 
 .change{
     width: 30%;
-    margin-bottom: 2%;
+    margin-bottom: 7%;
     opacity: 0.9;
     text-align: center;
-    height: 80%;
+    
     position: fixed;
 }
 
+#slider{
+    height: 600px;
+}
 
 /* background */
 
@@ -230,6 +233,7 @@ section{
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
+    
     
 }
 
@@ -310,4 +314,20 @@ section{
     background-color: #ffc107;
     margin: 0 auto;
     margin-top: 10px;
+}
+
+.first_slide{
+    position: relative;
+    bottom: 260px;
+}
+
+.second_slide{
+    position: relative;
+    bottom: 650px;
+}
+
+.logo2{
+    width: 200px;
+    position: absolute;
+    left: 120px;
 }

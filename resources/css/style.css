@@ -234,6 +234,7 @@ section{
     background-size: 100%;
     background-repeat: no-repeat;
     
+    
 }
 
 /* ------ map ----------*/
@@ -313,4 +314,20 @@ section{
     background-color: #ffc107;
     margin: 0 auto;
     margin-top: 10px;
+}
+
+.first_slide{
+    position: relative;
+    bottom: 260px;
+}
+
+.second_slide{
+    position: relative;
+    bottom: 650px;
+}
+
+.logo2{
+    width: 200px;
+    position: absolute;
+    left: 120px;
 }

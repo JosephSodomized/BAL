@@ -32,6 +32,13 @@
       }
     });
 
+    $(document).ready(function(){
+      $(window).resize(function(){
+          if( $(window).width() < 800){
+                $(".fb-page").attr("data-adapt-container-width", "true"); 
+          };
+      });    
+    });
     
     $(document).ready(function(){
       if( $(window).width() > 576){

@@ -1,5 +1,17 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 375px) {
+    header{
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; 
+        overflow: hidden;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+    }
+    
+
     .icon{
         width: 300px;
     }
@@ -27,14 +39,11 @@
  
  .repertuar{
     padding-top: 20px;
-    background-color: rgb(31, 31, 31);
     padding-bottom: 20px;
 }
 
 
 .repertuar h1{
-    color: white;
-  font-family: 'Lily Script One', cursive;
     min-height: 70px;
     margin: 0 auto;
     text-align: center;
@@ -44,7 +53,7 @@
    display: none;
 }
 .cinema{
-    background-color: #fff;
+    
     min-height: auto;
 }
 
@@ -87,10 +96,197 @@
 .fa-instagram{
     font-size: 40px;
 }
+
+
+.logo2{
+    display: none;
+}
+
+.size_2{
+    display: none;
+}
+
+
+.margines{
+    padding-top: 4%;
+  }
+
+
+  .first_slide{
+    position: relative;
+    bottom: 0px;
+}
+
+.second_slide{
+    position: relative;
+    bottom: 0px;
+}
+
+.change{
+    width: 30%;
+    margin-bottom: 1%;
+    opacity: 0.9;
+    text-align: center;
+    position: fixed;
+}
+
+.change p{
+    font-size: 7px;
+}
+
+.fb-page{
+    
+    width: 340px;
+    
+}
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 576px) {
+    header{
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; 
+        overflow: hidden;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+    }
+    
+
+    .icon{
+        width: 300px;
+    }
+
+    #slider{
+        height: auto;
+    }
+
+    .text-left h1{
+        margin-top: 0px;
+     }
+ 
+ .text-left{
+     float: left;  
+     padding-top: 20px;
+     padding-bottom: 20px;
+ }
+
+ 
+ .text-left p{
+     padding-top: 0;
+     font-size: 14px;
+ }
+
+ 
+ .repertuar{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.repertuar h1{
+    min-height: 70px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+ .facebook-pg{
+   display: none;
+}
+.cinema{
+    
+    min-height: auto;
+}
+
+.xd{
+    padding-top: 20px;
+}
+
+.inside-txt{
+    font-size: 12px;
+}
+
+.about-txt{
+     display: none;
+     
+}
+
+.pic{
+    height: 400px;
+}
+
+.hidden{
+    display: none;
+}
+
+
+/* ------ map ----------*/
+.map{
+    width: 100%;
+    height: 300px;
+}
+
+/* icons */ 
+.fa-facebook-messenger{
+    font-size: 40px;
+}
+.fa-facebook-square{
+    font-size: 40px;
+}
+
+.fa-instagram{
+    font-size: 40px;
+}
+
+
+.logo2{
+    display: none;
+}
+
+.size_2{
+    display: none;
+}
+
+
+.margines{
+    padding-top: 4%;
+  }
+
+
+  .first_slide{
+    position: relative;
+    bottom: 0px;
+}
+
+.second_slide{
+    position: relative;
+    bottom: 0px;
+}
+
+.change{
+    width: 60%;
+    height: 30%;
+    margin-bottom: 38%;
+    opacity: 0.9;
+    text-align: center;
+    font-size: 7px;
+    position: fixed;
+}
+
+.fb-page{
+    
+    width: 340px;
+   
+}
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    
+    
+
     .icon{
         width: 300px;
     }
@@ -117,14 +313,14 @@
  
  .repertuar{
     padding-top: 20px;
-    background-color: rgb(31, 31, 31);
+    
     padding-bottom: 20px;
 }
 
 
 .repertuar h1{
-    color: white;
-  font-family: 'Lily Script One', cursive;
+   
+  
     min-height: 70px;
     margin: 0 auto;
     text-align: center;
@@ -138,13 +334,50 @@
     display: none;
     
 }
+
+.change{
+    width: 60%;
+    height: 30%;
+    margin-bottom: 38%;
+    opacity: 0.9;
+    text-align: center;
+    font-size: 10px;
+    position: fixed;
+}
+
+.first_slide{
+    position: relative;
+    bottom: 0px;
+}
+
+.second_slide{
+    position: relative;
+    bottom: 0px;
+}
 } 
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {...} 
-
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...} 
+@media only screen and (min-width: 992px) {  
+        .first_slide{
+        position: relative;
+        bottom: 0px;
+    }
+
+    .second_slide{
+        position: relative;
+        bottom: 0px;
+    }
+} 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}
+@media only screen and (min-width: 1200px) {
+    .first_slide{
+        position: relative;
+        bottom: 0px;
+    }
+    
+    .second_slide{
+        position: relative;
+        bottom: 0px;
+    }
+}

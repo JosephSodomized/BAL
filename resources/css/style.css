@@ -16,6 +16,9 @@ header{
     background-position: center;
     background-size: cover; 
     overflow: hidden;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
 }
 
 
@@ -27,6 +30,7 @@ header{
     margin: 0 auto;
     width: 50%;
     margin-top: -5%;    
+    
 }
 /* ------ navbar ------- */
 
@@ -66,20 +70,11 @@ section{
     min-height: 700px;
 }
 
-
-
-.text-left h1{
-  
- font-family: 'Lily Script One', cursive;
-
-}
-
 .text-left{
     float: left;  
 }
 
 .text-left p{
-    
     font-size: 20px;
 }
 
@@ -91,18 +86,20 @@ section{
 }
 
 .repertuar h1{
-    text-align: left;
-    
-  font-family: 'Lily Script One', cursive;
-    
+    text-align: right;
 }
 
 
 .facebook-pg{
     padding-top: 30px;
-    width: 500px !important;
+    float: right;
+}
+
+.fb-page{
+    width: 340px;
     
 }
+
 /* ----------- ABOUT US ------------- */
 .about-us{
     
@@ -112,7 +109,7 @@ section{
 
 .about-txt{
     font-size: 20px;
-     font-family: 'Lily Script One', cursive;
+    
 }
 
 .inside-txt{
@@ -331,3 +328,7 @@ section{
     position: absolute;
     left: 120px;
 }
+
+.margines{
+    padding-top: 4%;
+  }

@@ -78,8 +78,6 @@ section{
     font-size: 20px;
 }
 
-
-
 .repertuar{
     float: right;
     
@@ -313,22 +311,20 @@ section{
     margin-top: 10px;
 }
 
-.first_slide{
-    position: relative;
-    bottom: 260px;
-}
-
-.second_slide{
-    position: relative;
-    bottom: 650px;
-}
-
 .logo2{
     width: 200px;
     position: absolute;
     left: 120px;
 }
 
-.margines{
-    padding-top: 4%;
+  .carousel-item img{
+    height: auto;
+  }
+
+  .hash{
+      font-size:40px;
+  }
+
+  .textowo{
+      font-size: 35px;
   }

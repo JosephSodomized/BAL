@@ -23,7 +23,6 @@ header{
 
 
 
-
 /* ------ ikona balu ------- */
 .icon{
     display: block;
@@ -287,7 +286,7 @@ section{
     text-align: center;
 }
 
-.fa-credit-card{
+.fa-cookie-bite{
     display: block;
     text-align: center;
 }
@@ -301,7 +300,7 @@ section{
     margin: 0 auto;
     margin-top: 10px;
 }
-.fa-credit-card:after{
+.fa-cookie-bite:after{
     display: block;
     content: "";
     height: 1px;
@@ -329,4 +328,11 @@ section{
       font-size: 35px;
   }
 
- 
+ .number{
+     color: #ffc107;
+ }
+
+ .number:hover{
+    color: #ffc107;
+    text-decoration: none;
+ }
